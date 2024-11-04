@@ -2,13 +2,7 @@
 
 ## Overview
 
-The **New Tab Extension** is a stylish Chrome extension that enhances your new tab experience with a clean and functional design. It offers:
-
-- **Dynamic Quotes**: Get inspired by a random quote every time you open a new tab.
-- **Current Time**: Stay updated with a real-time clock.
-- **Search Functionality**: Easily search the web with your preferred search engines.
-- **Recent Sites**: Quickly access your most visited sites with intuitive icons.
-- **Minimal Background**: Enjoy a visually appealing and minimalistic background.
+The **New Tab Extension** is a stylish Chrome extension that enhances your new tab experience with a clean and functional design.
 
 ## Features
 
@@ -50,10 +44,6 @@ The **New Tab Extension** is a stylish Chrome extension that enhances your new t
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
