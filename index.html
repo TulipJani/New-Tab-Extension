@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A new tab" />
+    <title>New Tab</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://images.vexels.com/content/157970/preview/earth-planet-icon-earth-icon-7442b6.png"
+      type="image/x-icon"
+    />
+
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="quote" class="quote-container">
+          <i class="fas fa-quote-left"></i>
+          <span></span>
+        </div>
+      </header>
+      <main id="main-content">
+        <div id="center" class="center-content">
+          <div class="time-greeting">
+            <div id="greeting" class="greeting"></div>
+            <div id="current-time" class="time"></div>
+          </div>
+          <div class="search-container">
+            <input
+              type="text"
+              id="search"
+              placeholder="Search or ask anything..."
+              autocomplete="off"
+              aria-label="Search"
+              autofocus
+            />
+            <div id="addons" class="search-engines">
+              <button
+                class="addon-btn active"
+                data-engine="google"
+                aria-label="Search with Google"
+              >
+                <img
+                  src="https://www.transparentpng.com/thumb/google-logo/google-logo-png-icon-free-download-SUF63j.png"
+                  alt="google Icon"
+                  class="google-icon chatgpt-icon"
+                />
+              </button>
+              <button
+                class="addon-btn"
+                data-engine="youtube"
+                aria-label="Search on YouTube"
+              >
+                <img
+                  src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png"
+                  alt="youtube Icon"
+                  class="youtube-icon chatgpt-icon"
+                />
+              </button>
+              <button
+                class="chatgpt addon-btn"
+                id="chatgpt-addon"
+                data-engine="chatgpt"
+                aria-label="Search with ChatGPT"
+              >
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGbRzh1h7GeU6KRFuGysSTuUkYWYy3AytMRA&s"
+                  alt="ChatGPT Icon"
+                  class="chatgpt-icon"
+                />
+              </button>
+              <button
+                class="perplexity addon-btn"
+                id="perplexity-addon"
+                data-engine="perplexity"
+                aria-label="Search with Perplexity"
+              >
+                <img
+                  src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/perplexity-ai-icon.png"
+                  alt="Perplexity Icon"
+                  class="perplexity-icon"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div id="recent-sites" class="recent-sites-grid">
+            <div class="icon">
+              <img src="#" alt="Site 1" />
+            </div>
+            <div class="icon">
+              <img src="#" alt="Site 2" />
+            </div>
+            <div class="icon">
+              <img src="#" alt="Site 3" />
+            </div>
+            <div class="icon">
+              <img src="#" alt="Site 4" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
